@@ -1,0 +1,44 @@
+#nav{
+    height:70px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+#home{
+    height:80vh;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1536649986370-e623f6c7c1e1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
+    background-size: 100% 100%;
+    padding-top: 50px;
+}
+#home h2{
+    color: white;
+    font-size: 70px;
+    margin: 50px auto;
+
+} 
+#home p{
+    color: black;
+    margin: 50px auto;
+    padding: 30px;
+    font-size: 20px;
+}
+#home button{
+    background-color:rgb(48,48,92);
+    color:white;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+}
+#home button:hover{
+    background-color: white;
+    color: black;
+}
